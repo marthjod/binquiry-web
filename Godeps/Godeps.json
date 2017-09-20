@@ -1,0 +1,71 @@
+{
+	"ImportPath": "github.com/marthjod/bingo-web",
+	"GoVersion": "go1.8",
+	"GodepVersion": "v79",
+	"Packages": [
+		"./..."
+	],
+	"Deps": [
+		{
+			"ImportPath": "github.com/Sirupsen/logrus",
+			"Comment": "v1.0.3-11-g89742ae",
+			"Rev": "89742aefa4b206dcf400792f3bd35b542998eb3b"
+		},
+		{
+			"ImportPath": "github.com/marthjod/bingo/convert",
+			"Rev": "eaa21853ba29ce44f94f1ae5393ca09558920bf7"
+		},
+		{
+			"ImportPath": "github.com/marthjod/bingo/getter",
+			"Rev": "eaa21853ba29ce44f94f1ae5393ca09558920bf7"
+		},
+		{
+			"ImportPath": "github.com/marthjod/bingo/model/case",
+			"Rev": "eaa21853ba29ce44f94f1ae5393ca09558920bf7"
+		},
+		{
+			"ImportPath": "github.com/marthjod/bingo/model/gender",
+			"Rev": "eaa21853ba29ce44f94f1ae5393ca09558920bf7"
+		},
+		{
+			"ImportPath": "github.com/marthjod/bingo/model/noun",
+			"Rev": "eaa21853ba29ce44f94f1ae5393ca09558920bf7"
+		},
+		{
+			"ImportPath": "github.com/marthjod/bingo/model/number",
+			"Rev": "eaa21853ba29ce44f94f1ae5393ca09558920bf7"
+		},
+		{
+			"ImportPath": "github.com/marthjod/bingo/model/wordtype",
+			"Rev": "eaa21853ba29ce44f94f1ae5393ca09558920bf7"
+		},
+		{
+			"ImportPath": "github.com/marthjod/bingo/reader",
+			"Rev": "eaa21853ba29ce44f94f1ae5393ca09558920bf7"
+		},
+		{
+			"ImportPath": "golang.org/x/crypto/ssh/terminal",
+			"Rev": "7d9177d70076375b9a59c8fde23d52d9c4a7ecd5"
+		},
+		{
+			"ImportPath": "golang.org/x/net/html",
+			"Rev": "8351a756f30f1297fe94bbf4b767ec589c6ea6d0"
+		},
+		{
+			"ImportPath": "golang.org/x/net/html/atom",
+			"Rev": "8351a756f30f1297fe94bbf4b767ec589c6ea6d0"
+		},
+		{
+			"ImportPath": "golang.org/x/sys/unix",
+			"Rev": "b6e1ae21643682ce023deb8d152024597b0e9bb4"
+		},
+		{
+			"ImportPath": "golang.org/x/sys/windows",
+			"Rev": "b6e1ae21643682ce023deb8d152024597b0e9bb4"
+		},
+		{
+			"ImportPath": "gopkg.in/xmlpath.v2",
+			"Rev": "860cbeca3ebcc600db0b213c0e83ad6ce91f5739"
+		}
+	]
+}
