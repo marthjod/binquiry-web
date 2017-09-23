@@ -20,3 +20,5 @@ $ curl -I 'localhost:4242/?foo=bar'
 HTTP/1.1 400 Bad Request
 ```
 
+For more examples, see [binquiry](https://github.com/marthjod/binquiry).
+
