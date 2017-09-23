@@ -2,6 +2,8 @@
 
 Simple JSON web server for [binquiry](https://github.com/marthjod/binquiry).
 
+Heroku [demo](https://young-caverns-16582.herokuapp.com/?q=str%C3%A6t%C3%B3).
+
 ## Example
 
 ```bash
