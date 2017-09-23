@@ -1,6 +1,6 @@
-# bingo-web
+# binquiry-web
 
-Simple JSON web server for [bingo](https://github.com/marthjod/bingo).
+Simple JSON web server for [binquiry](https://github.com/marthjod/binquiry).
 
 ## Example
 

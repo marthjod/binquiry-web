@@ -1,1 +1,1 @@
-web: bingo-web -port=$PORT
+web: binquiry-web -port=$PORT
