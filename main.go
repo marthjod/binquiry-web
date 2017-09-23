@@ -8,8 +8,8 @@ import (
 	"strconv"
 
 	"errors"
-	"github.com/marthjod/bingo/convert"
-	"github.com/marthjod/bingo/getter"
+	"github.com/marthjod/binquiry/convert"
+	"github.com/marthjod/binquiry/getter"
 )
 
 var (

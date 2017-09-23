@@ -1,5 +1,5 @@
 {
-	"ImportPath": "github.com/marthjod/bingo-web",
+	"ImportPath": "github.com/marthjod/binquiry-web",
 	"GoVersion": "go1.8",
 	"GodepVersion": "v79",
 	"Packages": [
@@ -12,36 +12,36 @@
 			"Rev": "89742aefa4b206dcf400792f3bd35b542998eb3b"
 		},
 		{
-			"ImportPath": "github.com/marthjod/bingo/convert",
-			"Rev": "335baa1404b7cfc70179d61d5fe1f12557d93723"
+			"ImportPath": "github.com/marthjod/binquiry/convert",
+			"Rev": "707a47845fbf4871536ea9860ddc25f120c786c4"
 		},
 		{
-			"ImportPath": "github.com/marthjod/bingo/getter",
-			"Rev": "335baa1404b7cfc70179d61d5fe1f12557d93723"
+			"ImportPath": "github.com/marthjod/binquiry/getter",
+			"Rev": "707a47845fbf4871536ea9860ddc25f120c786c4"
 		},
 		{
-			"ImportPath": "github.com/marthjod/bingo/model/case",
-			"Rev": "335baa1404b7cfc70179d61d5fe1f12557d93723"
+			"ImportPath": "github.com/marthjod/binquiry/model/case",
+			"Rev": "707a47845fbf4871536ea9860ddc25f120c786c4"
 		},
 		{
-			"ImportPath": "github.com/marthjod/bingo/model/gender",
-			"Rev": "335baa1404b7cfc70179d61d5fe1f12557d93723"
+			"ImportPath": "github.com/marthjod/binquiry/model/gender",
+			"Rev": "707a47845fbf4871536ea9860ddc25f120c786c4"
 		},
 		{
-			"ImportPath": "github.com/marthjod/bingo/model/noun",
-			"Rev": "335baa1404b7cfc70179d61d5fe1f12557d93723"
+			"ImportPath": "github.com/marthjod/binquiry/model/noun",
+			"Rev": "707a47845fbf4871536ea9860ddc25f120c786c4"
 		},
 		{
-			"ImportPath": "github.com/marthjod/bingo/model/number",
-			"Rev": "335baa1404b7cfc70179d61d5fe1f12557d93723"
+			"ImportPath": "github.com/marthjod/binquiry/model/number",
+			"Rev": "707a47845fbf4871536ea9860ddc25f120c786c4"
 		},
 		{
-			"ImportPath": "github.com/marthjod/bingo/model/wordtype",
-			"Rev": "335baa1404b7cfc70179d61d5fe1f12557d93723"
+			"ImportPath": "github.com/marthjod/binquiry/model/wordtype",
+			"Rev": "707a47845fbf4871536ea9860ddc25f120c786c4"
 		},
 		{
-			"ImportPath": "github.com/marthjod/bingo/reader",
-			"Rev": "335baa1404b7cfc70179d61d5fe1f12557d93723"
+			"ImportPath": "github.com/marthjod/binquiry/reader",
+			"Rev": "707a47845fbf4871536ea9860ddc25f120c786c4"
 		},
 		{
 			"ImportPath": "golang.org/x/crypto/ssh/terminal",
