@@ -13,35 +13,47 @@
 		},
 		{
 			"ImportPath": "github.com/marthjod/binquiry/convert",
-			"Rev": "707a47845fbf4871536ea9860ddc25f120c786c4"
+			"Rev": "f2792da90b1d2ee8a2ad56ca05c1e6eaa9fcc17e"
 		},
 		{
 			"ImportPath": "github.com/marthjod/binquiry/getter",
-			"Rev": "707a47845fbf4871536ea9860ddc25f120c786c4"
+			"Rev": "f2792da90b1d2ee8a2ad56ca05c1e6eaa9fcc17e"
+		},
+		{
+			"ImportPath": "github.com/marthjod/binquiry/model/adjective",
+			"Rev": "f2792da90b1d2ee8a2ad56ca05c1e6eaa9fcc17e"
 		},
 		{
 			"ImportPath": "github.com/marthjod/binquiry/model/case",
-			"Rev": "707a47845fbf4871536ea9860ddc25f120c786c4"
+			"Rev": "f2792da90b1d2ee8a2ad56ca05c1e6eaa9fcc17e"
+		},
+		{
+			"ImportPath": "github.com/marthjod/binquiry/model/comparison",
+			"Rev": "f2792da90b1d2ee8a2ad56ca05c1e6eaa9fcc17e"
+		},
+		{
+			"ImportPath": "github.com/marthjod/binquiry/model/declension",
+			"Rev": "f2792da90b1d2ee8a2ad56ca05c1e6eaa9fcc17e"
 		},
 		{
 			"ImportPath": "github.com/marthjod/binquiry/model/gender",
-			"Rev": "707a47845fbf4871536ea9860ddc25f120c786c4"
+			"Rev": "f2792da90b1d2ee8a2ad56ca05c1e6eaa9fcc17e"
 		},
 		{
 			"ImportPath": "github.com/marthjod/binquiry/model/noun",
-			"Rev": "707a47845fbf4871536ea9860ddc25f120c786c4"
+			"Rev": "f2792da90b1d2ee8a2ad56ca05c1e6eaa9fcc17e"
 		},
 		{
 			"ImportPath": "github.com/marthjod/binquiry/model/number",
-			"Rev": "707a47845fbf4871536ea9860ddc25f120c786c4"
+			"Rev": "f2792da90b1d2ee8a2ad56ca05c1e6eaa9fcc17e"
 		},
 		{
 			"ImportPath": "github.com/marthjod/binquiry/model/wordtype",
-			"Rev": "707a47845fbf4871536ea9860ddc25f120c786c4"
+			"Rev": "f2792da90b1d2ee8a2ad56ca05c1e6eaa9fcc17e"
 		},
 		{
 			"ImportPath": "github.com/marthjod/binquiry/reader",
-			"Rev": "707a47845fbf4871536ea9860ddc25f120c786c4"
+			"Rev": "f2792da90b1d2ee8a2ad56ca05c1e6eaa9fcc17e"
 		},
 		{
 			"ImportPath": "golang.org/x/crypto/ssh/terminal",
