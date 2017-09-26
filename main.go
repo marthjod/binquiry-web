@@ -7,29 +7,23 @@ import (
 	"os"
 	"strconv"
 
-	"errors"
 	"github.com/marthjod/binquiry/convert"
 	"github.com/marthjod/binquiry/getter"
 )
 
-var (
-	converter = convert.JSONConverter{}
+const (
 	urlPrefix = "http://dev.phpbin.ja.is/ajax_leit.php"
+	indexPage = "index.html"
 )
 
-func getQuery(r *http.Request) (string, error) {
-	q := r.URL.Query().Get("q")
-	if q == "" {
-		return q, errors.New("empty query")
-	}
-	return q, nil
-}
+var (
+	converter = convert.JSONConverter{}
+)
 
 func handleQuery(w http.ResponseWriter, r *http.Request) {
-	query, err := getQuery(r)
-	if err != nil {
-		w.WriteHeader(http.StatusBadRequest)
-		return
+	query := r.URL.Query().Get("q")
+	if query == "" {
+		http.ServeFile(w, r, indexPage)
 	}
 
 	w.Header().Set("Content-Type", "application/json")
@@ -43,6 +37,7 @@ func main() {
 
 	flag.Parse()
 
+	http.Handle("/js/", http.StripPrefix("/js/", http.FileServer(http.Dir("js"))))
 	http.HandleFunc("/", handleQuery)
 
 	fmt.Printf("Serving on port %d\n", *port)
